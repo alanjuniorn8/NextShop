@@ -10,7 +10,7 @@ export const HomeContainer = styled('main', {
   marginLeft: 'auto',
 })
 
-export const Product = styled('a', {
+export const Product = styled('div', {
   display: 'flex',
 
   alignItems: 'center',
@@ -55,6 +55,7 @@ export const Product = styled('a', {
 
     strong: {
       fontSize: '$lg',
+      color: '$gray100',
     },
 
     span: {
